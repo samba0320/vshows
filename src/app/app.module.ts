@@ -12,6 +12,7 @@ import { SearchBarComponent } from './components/navbar/search-bar/search-bar.co
 import { RouterModule,Routes } from '@angular/router';
 import { SelectCitiesComponent } from './components/navbar/select-cities/select-cities.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { DataComponent } from './data/data.component';
 
 const routes:Routes=[
   
@@ -24,7 +25,8 @@ const routes:Routes=[
     NavigationBarComponent,
     SigninDialogComponent,
     SearchBarComponent,
-    SelectCitiesComponent
+    SelectCitiesComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,
