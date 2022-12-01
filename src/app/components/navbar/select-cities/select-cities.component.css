@@ -1,0 +1,33 @@
+.search-bar{
+    display: flex;
+    border: 1px solid rgb(240, 240, 240);
+    margin: 1.5rem 1rem;
+    height: 3rem;  
+}
+.fa-magnifying-glass{
+    padding: 15px;
+}
+.form-control{
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 0 0 0 0;
+}
+.Popular-city{
+    text-align: center;
+}
+.city-logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    text-align: center;
+}
+.view-allcities{
+    padding: 2rem;
+    position: relative;
+    left: 20rem;
+}
+.view-allcities a{
+    text-decoration: none;
+    color: red;
+}
